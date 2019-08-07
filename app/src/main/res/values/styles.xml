@@ -1,0 +1,18 @@
+<resources>
+    <style parent="Theme.AppCompat.Light.DarkActionBar" name="AppTheme">
+    <item name="colorPrimary">@color/colorPrimary</item>
+    <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    <item name="colorAccent">@color/colorAccent</item>
+</style>
+    <style name="AppTheme.NoActionBar">
+    <item name="windowActionBar">false</item>
+    <item name="windowNoTitle">true</item>
+</style>
+    <style parent="ThemeOverlay.AppCompat.Dark.ActionBar" name="AppTheme.AppBarOverlay"/>
+    <style parent="ThemeOverlay.AppCompat.Light" name="AppTheme.PopupOverlay"/>
+    <style parent="@android:style/Widget.RatingBar" name="CustomRatingBar">
+    <item name="android:progressDrawable">@drawable/ratingbar</item>
+    <item name="android:minHeight">24dp</item>
+    <item name="android:maxHeight">24dp</item>
+</style>
+</resources>
